@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Gear Collection Home</title>
+
+<style>
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:link {color: black;}
+a:visited {color: black;}
+a:hover {color: purple;}
+body {background-color: #bce6df;}
+</style>
+
+</head>
+<body>
+<h1>Gear Collection Home</h1>
+<h3>Add Weapon:</h3>
+<form action = "AddWeaponServlet" method="post">
+Name: <input type ="text" name = "name">
+Weapon Type: <input type = "text" name = "weaponType">
+<input type = "submit" value="Add Weapon">
+</form> <br />
+<h3>Or:</h3>
+<ul>
+  <li><a href = "ViewAllWepServlet">View all weapons</a></li>
+  <li><a href="viewAllCollectionsServlet">View all collections</a> <br /></li>
+  <li><a href="addWeaponsForCollectionServlet">Create collection</a></li>
+</ul>  
+
+
+
+</body>
+</html>
